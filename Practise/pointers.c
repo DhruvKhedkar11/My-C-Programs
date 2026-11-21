@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main(){
-    int n, *p;
+    int n,k, *p, *j;
     scanf("%d", &n);
+    k = n;
     *p = n;
+    j = &k;
     printf("*********************************************\n");
 
     printf("%d\n", n);
